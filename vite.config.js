@@ -5,7 +5,7 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/is_it_raining",
+  base: "/is_it_raining/",
   plugins: [vue()],
   resolve: {
     alias: {
