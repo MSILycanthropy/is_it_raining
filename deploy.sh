@@ -3,8 +3,13 @@
 # abort on errors
 set -e
 
+if [ -d "dist" ]; then
+  rm -rf dist
+fi
+
 # build
 npm run build
+
 
 # navigate into the build output directory
 cd dist
