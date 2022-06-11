@@ -1,4 +1,4 @@
-# isitraining
+# Is It Raining
 
 Small Vue app that tells you whether or not its raining outside
 
