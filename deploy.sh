@@ -14,6 +14,8 @@ npm run build
 # navigate into the build output directory
 cd dist
 
+echo "isitraining.info" > CNAME
+
 git init
 git checkout -b main
 git add -A
