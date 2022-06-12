@@ -50,7 +50,8 @@ defineProps({
   font-size: 2rem;
   background-color: #031926;
   color: #d9cfc1;
-  width: 25%;
+  min-width: 25%;
+  width: fit-content;
   text-align: center;
   text-transform: uppercase;
   font-weight: semibold;
